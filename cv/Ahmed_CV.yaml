@@ -1,0 +1,233 @@
+cv:
+  name: Ahmed Shahriar
+  email: ahmed.shahriar343@gmail.com
+  phone: +1-226-988-9814
+  website: https://ahmedshahriar.ca
+  social_networks:
+    - network: LinkedIn
+      username: ahmed-shahriar-343-as
+
+  sections:
+
+    education:
+      - institution: University of Waterloo
+        area: Bachelor of Computer Science (BCS)
+        start_date: 2021-09
+        end_date: 2027-04
+        highlights:
+          - "Relevant Coursework: Distributed Systems, Concurrent/Parallel Systems, Machine Learning, Networking"
+
+    skills:
+      - label: Programming
+        details: C, C++, Go, Python, Java, JavaScript, Kotlin
+      - label: Tools & Frameworks
+        details: Git, Linux, PyTorch, React, gRPC, Redis
+      - label: Professional
+        details: Adaptability, Technical & Business Communication, Time Management
+
+    experience:
+      - company: University of Guelph
+        position: Research and Development Engineer
+        location: Guelph, ON, Canada
+        start_date: 2023-06
+        end_date: 2024-08
+        highlights:
+          - Prototyped a low-cost IoT telemetry framework, enabling real-time monitoring for thermal research projects.
+          - Engineered a distributed MQTT-based pipeline in Go with concurrent endpoints, achieving sub-2s end-to-end 
+            latency across a distributed deployment (4-8 sensors per site/node).
+          - Led and mentored a team of 6 engineers, delivering scalable components with peer-reviewed Git workflows.
+
+      - company: Ontario Provincial Police (OPP)
+        position: Database Analyst
+        location: Orillia, ON, Canada
+        start_date: 2024-01
+        end_date: 2024-08
+        highlights:
+          - Integrated a Python + Azure AI pipeline into frontline surveys, cutting processing time by 60% via automation.
+          - Optimized existing database workflows for forwarding 5000+ responses to analytics more reliably and efficiently.
+          - Automated sentiment analysis dashboards for Commissioner's office, delivering actionable insights from trends.
+
+    projects:
+      - name: Concurrent File Transfer Protocol (CFTP) --- [GitHub](https://github.com/The-Ahmed-Shahriar/CFTP)
+        start_date: 2024-01
+        end_date: 2024-02
+        highlights:
+          - Created a layer-5 file transfer protocol using Go, supporting concurrent uploads/downloads over TCP/IP and UDP.
+          - Modularized core operations atop Go's `net.Conn` interface for seamless, protocol-agnostic transport integrations.
+          - Leveraged goroutines for parallel client--server nodes, sustaining multi-file transfers with minimal overhead.
+          - Benchmarked performance under 4 concurrent clients x 10 transfers each to evaluate throughput and reliability.
+
+      - name: WLP4 Compiler --- [GitHub](https://github.com/The-Ahmed-Shahriar/WLP4Compiler)
+        start_date: 2023-02
+        end_date: 2023-04
+        highlights:
+          - Built a full WLP4 compiler in C++, implementing custom NFA, CFG, and AST modules from first principles.
+          - Generated MIPS assembly through an end-to-end toolchain (lexer → parser → generator → linker → assembler).
+          - Devised optimization engine reducing assembly output by 38%, from 144K down to 89K on benchmark suite.
+
+      - name: Predictive Text Suggestions --- [GitHub](https://github.com/The-Ahmed-Shahriar/PredictiveTextSuggestions)
+        start_date: 2023-04
+        end_date: 2023-04
+        highlights:
+          - Developed a C++ predictive text engine using compressed tries to suggest word auto-completions to users.
+          - Incorporated frequency weighting to prioritize commonly typed words, enhancing user experience over time.
+          - Achieved constant time predictions per keystroke, averaging under 50ms for real-time auto-completion.
+
+      - name: CFA Tools --- [VS Code](https://marketplace.visualstudio.com/items?itemName=AhmedShahriar.cfa-tools) | [GitHub](https://github.com/The-Ahmed-Shahriar/cfa-tools)
+        start_date: 2025-09
+        end_date: "present"
+        highlights:
+          - Maintain my published VS Code extension providing the **only** available [C∀](https://cforall.uwaterloo.ca/) programming language tooling.
+          - Develop a real-time syntax engine to improve code readability and enable future AI + IntelliSense integration.
+          - Use this tool daily in CS 343 (Parallel Programming) to build concurrent programs with highlighted C∀ primitives.
+
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: Source Sans 3
+    font_size: 10pt
+    leading: 0.6em
+    alignment: left
+    date_and_location_column_alignment: right
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_family: Source Sans 3
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: Source Sans 3
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: Source Sans 3
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.5em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, AREA'
+      degree_column_template: '' # '**DEGREE**'
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        --- *COMPANY*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        DATE
+        LOCATION
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: Present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+
+rendercv_settings:
+  date: '2025-09-30'
+  render_command:
+  bold_keywords: []

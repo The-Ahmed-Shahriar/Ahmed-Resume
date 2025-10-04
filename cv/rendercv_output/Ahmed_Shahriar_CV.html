@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Ahmed Shahriar's CV
+    </title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css"
+        integrity="sha512-Pmhg2i/F7+5+7SsdoUqKeH7UAZoVMYb1sxGOoJ0jWXAEHP0XV2H4CITyK267eHWp2jpj7rtqWNkmEOw1tNyYpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.css" integrity="sha384-PDbUeNCuE6bOPudPOgFyIUEy3UJawJVwr3XlGO90FIuf5qNIoTLSgOJo/dC2ZXV/" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/katex.min.js" integrity="sha384-VkqWq8xtm5YQk1BBXczQ8/Sx+DlCzF8cuS43bZwmtVXzRFtyLTqTCdP7MKmKo+KN" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.12/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+        onload="renderMathInElement(document.body, {delimiters: [{ left: '$$',  right: '$$',  display: false }]});"></script>
+    <style>
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+        }
+
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <article class="markdown-body">
+        <h1>Ahmed Shahriar's CV</h1>
+        <ul>
+        <li>Phone: +1 226 988 9814</li>
+        <li>Email: <a href="mailto:ahmed.shahriar343@gmail.com">ahmed.shahriar343@gmail.com</a></li>
+        <li>Website: <a href="https://ahmedshahriar.ca/">ahmedshahriar.ca</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/ahmed-shahriar-343-as">ahmed-shahriar-343-as</a></li>
+        </ul>
+        <h1>Education</h1>
+        <h2>University of Waterloo, Bachelor of Computer Science (BCS)</h2>
+        <ul>
+        <li>Sep 2021 – Apr 2027</li>
+        <li>Relevant Coursework: Distributed Systems, Concurrent/Parallel Systems, Machine Learning, Networking</li>
+        </ul>
+        <h1>Skills</h1>
+        <ul>
+        <li>Programming: C, C++, Go, Python, Java, JavaScript, Kotlin</li>
+        <li>Tools &amp; Frameworks: Git, Linux, PyTorch, React, gRPC, Redis</li>
+        <li>Professional: Adaptability, Technical &amp; Business Communication, Time Management</li>
+        </ul>
+        <h1>Experience</h1>
+        <h2>University of Guelph, Research and Development Engineer</h2>
+        <ul>
+        <li>Jun 2023 – Aug 2024</li>
+        <li>Guelph, ON, Canada</li>
+        <li>Prototyped a low-cost IoT telemetry framework, enabling real-time monitoring for thermal research projects.</li>
+        <li>Engineered a distributed MQTT-based pipeline in Go with concurrent endpoints, achieving sub-2s end-to-end latency across a distributed deployment (4-8 sensors per site/node).</li>
+        <li>Led and mentored a team of 6 engineers, delivering scalable components with peer-reviewed Git workflows.</li>
+        </ul>
+        <h2>Ontario Provincial Police (OPP), Database Analyst</h2>
+        <ul>
+        <li>Jan 2024 – Aug 2024</li>
+        <li>Orillia, ON, Canada</li>
+        <li>Integrated a Python + Azure AI pipeline into frontline surveys, cutting processing time by 60% via automation.</li>
+        <li>Optimized existing database workflows for forwarding 5000+ responses to analytics more reliably and efficiently.</li>
+        <li>Automated sentiment analysis dashboards for Commissioner's office, delivering actionable insights from trends.</li>
+        </ul>
+        <h1>Projects</h1>
+        <h2>Concurrent File Transfer Protocol (CFTP) --- <a href="https://github.com/The-Ahmed-Shahriar/CFTP">GitHub</a></h2>
+        <ul>
+        <li>Jan 2024 – Feb 2024</li>
+        <li>Created a layer-5 file transfer protocol using Go, supporting concurrent uploads/downloads over TCP/IP and UDP.</li>
+        <li>Modularized core operations atop Go's <code>net.Conn</code> interface for seamless, protocol-agnostic transport integrations.</li>
+        <li>Leveraged goroutines for parallel client--server nodes, sustaining multi-file transfers with minimal overhead.</li>
+        <li>Benchmarked performance under 4 concurrent clients x 10 transfers each to evaluate throughput and reliability.</li>
+        </ul>
+        <h2>WLP4 Compiler --- <a href="https://github.com/The-Ahmed-Shahriar/WLP4Compiler">GitHub</a></h2>
+        <ul>
+        <li>Feb 2023 – Apr 2023</li>
+        <li>Built a full WLP4 compiler in C++, implementing custom NFA, CFG, and AST modules from first principles.</li>
+        <li>Generated MIPS assembly through an end-to-end toolchain (lexer → parser → generator → linker → assembler).</li>
+        <li>Devised optimization engine reducing assembly output by 38%, from 144K down to 89K on benchmark suite.</li>
+        </ul>
+        <h2>Predictive Text Suggestions --- <a href="https://github.com/The-Ahmed-Shahriar/PredictiveTextSuggestions">GitHub</a></h2>
+        <ul>
+        <li>Apr 2023 – Apr 2023</li>
+        <li>Developed a C++ predictive text engine using compressed tries to suggest word auto-completions to users.</li>
+        <li>Incorporated frequency weighting to prioritize commonly typed words, enhancing user experience over time.</li>
+        <li>Achieved constant time predictions per keystroke, averaging under 50ms for real-time auto-completion.</li>
+        </ul>
+        <h2>CFA Tools --- <a href="https://marketplace.visualstudio.com/items?itemName=AhmedShahriar.cfa-tools">VS Code</a> | <a href="https://github.com/The-Ahmed-Shahriar/cfa-tools">GitHub</a></h2>
+        <ul>
+        <li>Sep 2025 – Present</li>
+        <li>Maintain my published VS Code extension providing the <strong>only</strong> available <a href="https://cforall.uwaterloo.ca/">C∀</a> programming language tooling.</li>
+        <li>Develop a real-time syntax engine to improve code readability and enable future AI + IntelliSense integration.</li>
+        <li>Use this tool daily in CS 343 (Parallel Programming) to build concurrent programs with highlighted C∀ primitives.</li>
+        </ul>
+    </article>
+</body>
+
+</html>

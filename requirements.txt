@@ -1,0 +1,4 @@
+rendercv[full]
+selenium
+beautifulsoup4
+webdriver_manager

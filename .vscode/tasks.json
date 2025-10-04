@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "RenderCV",
+            "type": "shell",
+            "command": "source ~/pykernel/bin/activate && rendercv render ${file}",
+            "isBackground": true,
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "onProblem",
+                // "focus": false,
+                "panel": "dedicated",
+                // "showReuseMessage": false,
+                "clear": true,
+                "close": true
+            },
+            "options": {
+                "cwd": "${fileDirname}"
+            }
+        }
+    ]
+}
